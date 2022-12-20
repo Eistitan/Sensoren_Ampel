@@ -39,10 +39,10 @@ namespace Sensoren_Ampel
                         if (sensoren[i].Temperatur > 30)
                             farbe = Zustand.Yellow;
                         if (sensoren[i].Temperatur > 35)
-                            farbe = Zustand.Red;
+                            return Zustand.Red;
                     }
                     else
-                        farbe = Zustand.Red;
+                        return Zustand.Red;
                 }
             }
             return farbe;

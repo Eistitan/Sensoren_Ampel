@@ -13,7 +13,6 @@
             Ausgabe(ser2,Serverraum.Zustand.Yellow);
             Ausgabe(ser4,Serverraum.Zustand.Red);
             Ausgabe(ser5,Serverraum.Zustand.Red);//Green
-
         }
         public static void Ausgabe(Serverraum ser, Serverraum.Zustand farbe)
         {

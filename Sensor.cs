@@ -17,6 +17,5 @@ namespace Sensoren_Ampel
         {
             this.Temperatur = t;
         }
-
     }
 }
